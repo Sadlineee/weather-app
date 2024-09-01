@@ -3,7 +3,7 @@ import { useGetWeatherDataQuery } from '@services/api/weatherApi'
 import { AppTitle, HomePage } from './Home.styled'
 import { Loader } from '@styles/common'
 
-const TextField = React.lazy(() => import('./TextField'))
+const SearchField = React.lazy(() => import('./SearchField'))
 const TempValue = React.lazy(() => import('./TempValue'))
 const ErrorValue = React.lazy(() => import('./ErrorValue'))
 
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
     <HomePage>
       <React.Suspense fallback={ <Loader /> }>
         <AppTitle>WeatherApp</AppTitle>
-        <TextField cityName={cityName} setCityName={setCityName} />
+        <SearchField cityName={cityName} setCityName={setCityName} />
         <TempValue tempValue={data?.main?.temp ? Math.round(data.main.temp) : null} isLoading={isLoading} />
         <ErrorValue error={error} />
       </React.Suspense>

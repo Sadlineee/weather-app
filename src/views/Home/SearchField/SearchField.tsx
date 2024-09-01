@@ -1,8 +1,8 @@
 import React from 'react'
-import { InputText } from './TextField.styled'
+import { InputText } from './SearchField.styled'
 import { CityProps } from '@/types/CityProps'
 
-const TextField: React.FC<CityProps> = React.memo(({ cityName, setCityName }) => {
+const SearchField: React.FC<CityProps> = React.memo(({ cityName, setCityName }) => {
   return (
     <InputText
       type="text"
@@ -13,4 +13,4 @@ const TextField: React.FC<CityProps> = React.memo(({ cityName, setCityName }) =>
   )
 })
 
-export default TextField
+export default SearchField
