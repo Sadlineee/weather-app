@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useGetWeatherDataQuery } from '@services/api/weatherApi'
-import { HomePage } from './Home.styled'
-import { Loader, AppTitle } from '@styles/common'
+import { AppTitle, HomePage } from './Home.styled'
+import { Loader } from '@styles/common'
 
 const TextField = React.lazy(() => import('./TextField'))
 const TempValue = React.lazy(() => import('./TempValue'))
