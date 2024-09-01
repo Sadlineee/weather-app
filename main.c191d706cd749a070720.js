@@ -26,12 +26,12 @@
     height: 70vh;
     width: 100vw;
   }
-`;var w=a(90);const f=i.lazy((()=>a.e(762).then(a.bind(a,762)))),j=i.lazy((()=>a.e(960).then(a.bind(a,960)))),v=i.lazy((()=>a.e(146).then(a.bind(a,146)))),k=()=>{var e;const[r,a]=(0,i.useState)(""),{data:n,error:s,isLoading:o}=h(r,{skip:0===r.length});return(0,t.jsx)(g,{children:(0,t.jsxs)(i.Suspense,Object.assign({fallback:(0,t.jsx)(w.a,{})},{children:[(0,t.jsx)(w.M,{children:"WeatherApp"}),(0,t.jsx)(f,{cityName:r,setCityName:a}),(0,t.jsx)(j,{tempValue:(null===(e=null==n?void 0:n.main)||void 0===e?void 0:e.temp)?Math.round(n.main.temp):null,isLoading:o}),(0,t.jsx)(v,{error:s})]}))})};n.createRoot(document.getElementById("root")).render((0,t.jsx)(i.StrictMode,{children:(0,t.jsx)(s.Kq,Object.assign({store:p},{children:(0,t.jsx)((()=>(0,t.jsxs)(m.Kd,{children:[(0,t.jsx)(y,{}),(0,t.jsx)(x.BV,{children:(0,t.jsx)(x.qh,{path:"/weather-app",element:(0,t.jsx)(k,{})})})]})),{})}))}))},90:(e,r,a)=>{a.d(r,{M:()=>n,a:()=>s});var t=a(581),i=a(594);const n=t.Ay.h1`
-  font-family: ${i.w.fonts.secondary};
+`,w=u.Ay.h1`
+  font-family: ${b.w.fonts.secondary};
   font-size: 2.75rem;
   font-weight: 500;
-  color: ${i.w.colors.primary};
-`,s=t.Ay.div`
+  color: ${b.w.colors.primary};
+`;var f=a(448);const j=i.lazy((()=>a.e(762).then(a.bind(a,762)))),v=i.lazy((()=>a.e(960).then(a.bind(a,960)))),k=i.lazy((()=>a.e(146).then(a.bind(a,146)))),F=()=>{var e;const[r,a]=(0,i.useState)(""),{data:n,error:s,isLoading:o}=h(r,{skip:0===r.length});return(0,t.jsx)(g,{children:(0,t.jsxs)(i.Suspense,Object.assign({fallback:(0,t.jsx)(f.a,{})},{children:[(0,t.jsx)(w,{children:"WeatherApp"}),(0,t.jsx)(j,{cityName:r,setCityName:a}),(0,t.jsx)(v,{tempValue:(null===(e=null==n?void 0:n.main)||void 0===e?void 0:e.temp)?Math.round(n.main.temp):null,isLoading:o}),(0,t.jsx)(k,{error:s})]}))})};n.createRoot(document.getElementById("root")).render((0,t.jsx)(i.StrictMode,{children:(0,t.jsx)(s.Kq,Object.assign({store:p},{children:(0,t.jsx)((()=>(0,t.jsxs)(m.Kd,{children:[(0,t.jsx)(y,{}),(0,t.jsx)(x.BV,{children:(0,t.jsx)(x.qh,{path:"/weather-app",element:(0,t.jsx)(F,{})})})]})),{})}))}))},448:(e,r,a)=>{a.d(r,{a:()=>n});var t=a(581),i=a(594);const n=t.Ay.div`
   display: inline-block;
   box-sizing: border-box;
   aspect-ratio: 1 / 1;

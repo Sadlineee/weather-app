@@ -2,4 +2,4 @@
   font-family: ${t.w.fonts.secondary};
   font-size: 1.5rem;
   color: ${t.w.colors.primary};
-`;var o=n(90);const r=({tempValue:e,isLoading:s})=>s?(0,a.jsx)(o.a,{}):(0,a.jsx)(c,{children:null!==e?`${e}°C`:"-"})}}]);
+`;var o=n(448);const r=({tempValue:e,isLoading:s})=>s?(0,a.jsx)(o.a,{}):(0,a.jsx)(c,{children:null!==e?`${e}°C`:"-"})}}]);
