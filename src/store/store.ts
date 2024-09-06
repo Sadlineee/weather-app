@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { weatherApi } from '@services/api/weatherApi'
 
-const store = configureStore({
+export const store = configureStore({
   reducer: {
     [weatherApi.reducerPath]: weatherApi.reducer
   },
@@ -10,4 +10,3 @@ const store = configureStore({
 })
 
 export type AppDispatch = typeof store.dispatch
-export default store
